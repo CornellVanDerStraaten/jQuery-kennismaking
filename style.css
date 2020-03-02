@@ -1,0 +1,31 @@
+@font-face{
+    font-family: 'Atami Display';
+    src: url('font/Atami-Display-Regular.otf') format('opentype');
+  }
+  @font-face{
+    font-family: 'Atami Regular';
+    src: url('font/Atami-Regular.otf') format('opentype');
+  }
+
+body {
+    font-family: 'Atami Regular';
+    text-align: center;
+}
+h3 {
+    font-family: 'Atami Display';
+}
+main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2em;
+    width: calc(732px+6em);
+    margin: 0 auto;
+}
+
+footer {
+    padding: 0 3em;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    text-align: left;
+
+}
