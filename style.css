@@ -22,7 +22,7 @@ main {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2em;
-    width: calc(732px+6em);
+    width: calc(732px + 6em);
     margin: 0 auto;
     margin-bottom: 4em;
 }
