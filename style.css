@@ -7,6 +7,10 @@
     src: url('font/Atami-Regular.otf') format('opentype');
   }
 
+html,body  {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Atami Regular';
     text-align: center;
@@ -16,16 +20,30 @@ h3 {
 }
 main {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2em;
     width: calc(732px+6em);
     margin: 0 auto;
+    margin-bottom: 4em;
 }
-
+section img {
+    width: 20em;
+}
 footer {
-    padding: 0 3em;
+    padding: 1em 3em;
     display: grid;
     grid-template-columns: 1fr auto;
     text-align: left;
+    background-color: rgb(54, 54, 54);
+    margin: 0;
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+footer span {
+    margin: auto 0;
+}
 
+#clickMe {
+    cursor:pointer;
 }
