@@ -1,4 +1,5 @@
 $(document).ready( function() {
+    
     // test
     // $('main').hide(3000).delay(1000).show(5000);
 
@@ -28,5 +29,5 @@ $(document).ready( function() {
     }).dblclick( function() {
         $(this).fadeTo(10000, -0.1)
     })
-
+    $('.js-example-basic-single').select2();
 });
